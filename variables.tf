@@ -60,6 +60,10 @@ variable "availability_zone" {
   default = "us-west-2a"
 }
 
+variable "aws_region" {
+  default = "us-west-2"
+}
+
 variable "acl" {
   description = "(Optional) The canned ACL to apply. Conflicts with `grant`"
   type        = string
