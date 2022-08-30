@@ -16,7 +16,7 @@ resource "random_pet" "this" {
 
 module "s3-bucket" { 
 
-  source     = "https://app.terraform.io/app/DLUHC-Digital/s3-bucket/aws" 
+  source     = "app.terraform.io/DLUHC-Digital/s3-bucket/aws" 
 
   version    = "1.6.0" 
 
