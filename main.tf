@@ -1,3 +1,12 @@
+
+terraform {
+  required_version = ">= 0.11.0"
+}
+
+provider aws {
+  region = var.aws_region
+}
+
 data "aws_canonical_user_id" "this" {}
 
 locals {
