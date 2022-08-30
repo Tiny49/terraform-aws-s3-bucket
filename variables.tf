@@ -52,6 +52,14 @@ variable "bucket_prefix" {
   default     = null
 }
 
+variable "prefix" {
+  default = "tfe"
+}
+
+variable "availability_zone" {
+  default = "us-west-2a"
+}
+
 variable "acl" {
   description = "(Optional) The canned ACL to apply. Conflicts with `grant`"
   type        = string
